@@ -15,7 +15,7 @@ object WordCount {
     val wordCountConf: SparkConf = new SparkConf().setMaster("local[*]").setAppName("WordCount")
 
     //创建Spark上下文对象
-    val sc : SparkContext = new SparkContext(wordCountConf)
+    val sc: SparkContext = new SparkContext(wordCountConf)
     //println(sc)
 
     //读取文件,将文件内容一行一行的读取出来

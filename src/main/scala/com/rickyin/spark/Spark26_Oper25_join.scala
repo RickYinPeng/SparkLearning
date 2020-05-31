@@ -18,7 +18,5 @@ object Spark26_Oper25_join {
     joinRDD.collect().foreach(println)
 
     val listRDD3: RDD[(Int, String)] = sc.makeRDD(Array((1, "aaaa"), (2, "bbbb"), (3, "cccc")))
-
-
   }
 }
